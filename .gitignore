@@ -1,0 +1,35 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# YOLO training outputs
+runs/
+*.pt
+
+# Dataset images and labels
+data/train/images/
+data/train/labels/
+data/valid/images/
+data/valid/labels/
+data/test/images/
+data/test/labels/
+
+# Dataset cache
+*.cache
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables / secrets
+.env
+
+# VS Code
+.vscode/
+
+# IDE
+.idea/

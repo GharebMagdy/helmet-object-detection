@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names: ['head', 'helmet', 'person']
+
+roboflow:
+  workspace: shdv1
+  project: hard-hat-workers-aibtb
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/shdv1/hard-hat-workers-aibtb/dataset/1
